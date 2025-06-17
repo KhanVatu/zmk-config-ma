@@ -1,0 +1,17 @@
+if MAL
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "mal"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if MAL || MAR
+
+config ZMK_SPLIT
+    default y
+
+endif
