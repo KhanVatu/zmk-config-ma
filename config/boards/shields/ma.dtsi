@@ -30,5 +30,6 @@
     chosen {
         zmk,kscan = &default_kscan;
         zmk,kscan = &default_transform;
+        zmk,kscan = &default_transform;
     };
 };
