@@ -1,5 +1,5 @@
 # No whitespace after the comma or in your part name!
-config SHIELD_MAL
+config MAL
     def_bool $(shields_list_contains,mal)
 
 # No whitespace after the comma or in your part name!
