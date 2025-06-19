@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your dtsi
-
-
+#include "ma_right.overlay"
+#include "ma_left.overlay"
 / {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
@@ -28,7 +28,7 @@
 };
 / {
     chosen {
-        zmk,physical-layout = &physical_layout0;
-        // Other chosen items
+        zmk,kscan = &default_kscan;
+        zmk,kscan = &default_transform;
     };
 };
