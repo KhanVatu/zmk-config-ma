@@ -1,4 +1,4 @@
-if MAL
+if SHIELD_MAL
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -9,7 +9,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if MAL || MAR
+if SHIELD_MAL || SHIELD_MAR
 
 config ZMK_SPLIT
     default y
