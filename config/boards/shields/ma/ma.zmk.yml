@@ -8,5 +8,5 @@ exposes: [none]
 features:
   - keys
 siblings:
-  - mal
-  - mar
+  - ma_left
+  - ma_right
